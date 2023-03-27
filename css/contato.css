@@ -1,0 +1,62 @@
+.contato {
+    max-width: 800px; /* Define a largura máxima do elemento contato */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
+    padding: 20px; /* Adiciona padding ao redor do elemento */
+    margin-top: 50px; /* Define a margem superior do elemento */
+    background-color: #f2f2f2; /* Define a cor de fundo do elemento */
+  }
+  
+  .contato h2 {
+    margin-top: 0; /* Remove a margem superior do elemento h2 dentro do elemento contato */
+  }
+  
+  form {
+    display: grid; /* Define o elemento form como uma grid */
+    grid-template-columns: 1fr 1fr; /* Define as colunas da grid com o mesmo tamanho */
+    grid-gap: 20px; /* Define o espaçamento entre as células da grid */
+  }
+  
+  label {
+    display: block; /* Transforma o elemento label em um elemento de bloco */
+    margin-bottom: 5px; /* Adiciona margem inferior ao elemento label */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; /* Define a largura dos elementos de entrada de texto para ocupar toda a largura do elemento pai */
+    padding: 10px; /* Adiciona padding interno ao elemento */
+    border: 1px solid #ccc; /* Define a borda do elemento com cor e espessura */
+    border-radius: 5px; /* Define o raio de curvatura das bordas do elemento */
+    font-size: 16px; /* Define o tamanho da fonte do elemento */
+    font-family: Arial, sans-serif; /* Define a fonte do elemento */
+    color: #333; /* Define a cor do texto do elemento */
+  }
+  
+  button[type="submit"] {
+    background-color: #333; /* Define a cor de fundo do elemento botão */
+    color: #fff; /* Define a cor do texto do elemento botão */
+    border: none; /* Remove a borda do elemento botão */
+    border-radius: 5px; /* Define o raio de curvatura das bordas do elemento botão */
+    padding: 10px 20px; /* Adiciona padding interno ao elemento botão */
+    font-size: 16px; /* Define o tamanho da fonte do elemento botão */
+    font-family: Arial, sans-serif; /* Define a fonte do elemento botão */
+    cursor: pointer; /* Define o cursor do mouse como uma mãozinha quando estiver sobre o elemento botão */
+    transition: background-color 0.2s ease; /* Adiciona uma transição suave na mudança de cor de fundo do elemento botão */
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444; /* Define a cor de fundo do elemento botão quando o mouse estiver sobre ele */
+  }
+  
+  .centralizar {
+    display: flex; /* Define o elemento como um contêiner flex */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+  }
+  
+  iframe {
+    padding-top: 50px; /* Adiciona padding no topo do elemento iframe */
+    align-items: center; /* Centraliza os itens verticalmente */
+  }
+  

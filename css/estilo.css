@@ -1,0 +1,156 @@
+* {
+    scroll-behavior: smooth; /* Adiciona uma animação suave ao rolar a página */
+    overflow-x: hidden; /* Esconde a barra de rolagem horizontal caso haja */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    margin: 0; /* Remove a margem externa do corpo */
+    padding: 0; /* Remove o preenchimento interno do corpo */
+    height: 100%; /* Define a altura do corpo como 100% da tela */
+    position: relative; /* Define a posição do elemento como relativa */
+}
+
+header {
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
+    display: flex; /* Define o elemento como um flex container */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 20px; /* Adiciona um preenchimento interno ao elemento */
+    background-color: #333; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto do cabeçalho */
+}
+
+.logo {
+    margin-right: 20px; /* Adiciona uma margem à direita */
+}
+
+header h1 {
+    margin: 0; /* Remove a margem externa do título */
+    font-size: 50px; /* Define o tamanho da fonte do título */
+    font-family: 'Roboto Condensed', sans-serif; /* Define a fonte do título */
+}
+
+.logo img {
+    display: block; /* Define a imagem como um bloco */
+    max-width: 180px; /* Define a largura máxima da imagem */
+    height: auto; /* Define a altura da imagem como automática */
+}
+
+nav {
+    font-family: 'Roboto', sans-serif; /* Define a fonte da navegação */
+    font-size: 20px; /* Define o tamanho da fonte da navegação */
+}
+
+nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove a margem externa da lista */
+    padding: 0; /* Remove o preenchimento interno da lista */
+    background-color: #f2f2f2; /* Define a cor de fundo da lista */
+    text-align: center; /* Alinha o texto da lista ao centro */
+}
+
+nav li {
+    display: inline-block; /* Define o item como um bloco inline */
+    margin-right: 20px; /* Adiciona uma margem à direita */
+}
+nav a {
+    display: block;         /* Define o elemento como um bloco */
+    padding: 10px;          /* Adiciona espaçamento interno */
+    color: #333;            /* Define a cor do texto */
+    text-decoration: none;  /* Remove a decoração do texto */
+}
+
+nav a:hover {
+    background-color: #ddd; /* Define a cor de fundo quando o mouse estiver em cima */
+    color: #333;            /* Define a cor do texto quando o mouse estiver em cima */
+}
+
+main {
+    max-width: 800px;       /* Define a largura máxima do elemento */
+    margin: 0 auto;         /* Centraliza o elemento horizontalmente */
+    padding: 20px;          /* Adiciona espaçamento interno */
+    padding-bottom: 100px;  /* Adiciona espaçamento interno na parte inferior */
+    font-family: 'Roboto', sans-serif; /* Define a fonte do texto */
+}
+
+.button {
+    display: inline-block;  /* Define o elemento como um bloco inline */
+    background-color: #333; /* Define a cor de fundo */
+    color: #fff;            /* Define a cor do texto */
+    padding: 10px 20px;     /* Adiciona espaçamento interno */
+    text-decoration: none;  /* Remove a decoração do texto */
+    border-radius: 5px;     /* Define o raio do elemento */
+}
+
+.button:hover {
+    background-color: #444; /* Define a cor de fundo quando o mouse estiver em cima */
+}
+
+.veiculos {
+    max-width: 800px;       /* Define a largura máxima do elemento */
+    margin: 0 auto;         /* Centraliza o elemento horizontalmente */
+    padding: 20px;          /* Adiciona espaçamento interno */
+    margin-bottom: 20px;    /* Adiciona espaçamento externo na parte inferior */
+}
+
+.grid {
+    display: grid;          /* Define o display como grid */
+    grid-template-columns: repeat(3, 1fr); /* Define a quantidade e tamanho das colunas */
+    grid-gap: 20px;         /* Define o espaçamento entre as células */
+    margin-top: 20px;       /* Adiciona espaçamento externo na parte superior */
+}
+
+.item {
+    position: relative;     /* Define a posição do elemento como relativa */
+}
+
+.descricao {
+    position: absolute;     /* Define a posição do elemento como absoluta */
+    bottom: 0;              /* Define a posição na parte inferior */
+    left: 0;                /* Define a posição na parte esquerda */
+    right: 0;               /* Define a posição na parte direita */
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo com transparência */
+    color: #fff;            /* Define a cor do texto */
+    padding: 10px;          /* Adiciona espaçamento interno */
+    transition: opacity 0.2s ease; /* Adiciona uma transição de opacidade */
+    opacity: 0;             /* Define a opacidade inicial como 0 */
+}
+
+.item:hover .descricao {
+    opacity: 1;             /* Define a opacidade como 1 quando o mouse estiver em cima */
+}
+
+h3 {
+    margin-top: 0;          /* Remove o espaçamento superior do elemento */
+}
+
+ul {
+    list-style: none; /* Remove os marcadores de lista */
+    margin: 0; /* Remove as margens */
+    padding: 0; /* Remove o preenchimento interno */
+  }
+  
+  ul li {
+    display: inline-block; /* Define cada item da lista como um elemento de bloco inline */
+    margin-right: 10px; /* Adiciona uma margem à direita de cada item da lista */
+  }
+  
+  img {
+    width: 100%; /* Define a largura da imagem para ocupar 100% do elemento pai */
+    height: auto; /* Define a altura da imagem automaticamente para manter a proporção */
+  }
+  
+  footer {
+    margin-top: 50px; /* Adiciona uma margem superior de 50 pixels */
+    position: absolute; /* Define a posição como absoluta */
+    left: 0; /* Alinha o elemento à esquerda da tela */
+    bottom: 0; /* Alinha o elemento na parte inferior da tela */
+    width: 100%; /* Define a largura como 100% do elemento pai */
+    background-color: #333; /* Define a cor de fundo */
+    color: #fff; /* Define a cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 20px; /* Adiciona um preenchimento interno */
+    font-family: 'Roboto', sans-serif; /* Define a fonte */
+  }
+  
